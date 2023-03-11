@@ -1,0 +1,74 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Ultra', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(193, 217, 255);
+    
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px black;
+    background: rgb(164, 184, 216);
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+#forward-todo {
+    font-size: 1.5rem;
+    padding: 5px;
+    text-shadow: 1px 1px 2px black;
+    background: none;
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+#forward-todo:hover {
+    cursor: pointer;
+    opacity: .85;
+    font-size: 1.55rem;
+}
+
+input:hover {
+    cursor: pointer;
+    opacity: .85;
+    font-size: .85rem;
+}
+
+section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.greet {
+    color: rgb(46, 94, 182);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+h3, #date{
+    
+    color: rgb(62, 99, 168);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-right: .8rem;
+}
+
+
+::placeholder {
+    text-shadow: 1px 1px 2px black;
+    
+}

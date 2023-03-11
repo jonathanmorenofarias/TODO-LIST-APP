@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Todo List </title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1582/1582374.png" type="image/icon type">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List </title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- FONT ADDED (Oswalrd) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 
     <link rel="stylesheet" href="main.css" />
+    <link rel="" href="main.js" />
 </head>
 <body>
-    <main class="app">
+    <main class="application">
 
 
         <section class="welcome">
             <h2 class="greet">
-                Here's Your Todo List, <input type="text" id="user-name" placeholder="Enter name"> <!-- TAKE USERS NAME INPUT -->
+                Here's what needs to get done, <input type="text" id="user-name" placeholder="Enter name"> <!-- TAKE USERS NAME INPUT -->
             </h2>
         </section>
-
-
         
-        <section class="todolist">
-
+        <section class="enter-todo">
+            <h3 class="task-prompt">Whats the Task?</h3>
+                <input type="text" id="entered-item" placeholder="ex: buy groceries">
+                <button id="forward-todo">+</button>
         </section>
 
+        <section class="todo-list">
+            <h3>Your Current List , </h3>
+            <span id="date"></span>
+            <section class="real-list">
+              
+            </section>
+            
+        </section>
 
     </main>
     <script src="main.js"></script>
