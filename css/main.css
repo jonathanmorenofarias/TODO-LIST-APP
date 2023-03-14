@@ -2,26 +2,27 @@
     
     margin: 0;
     padding: 0;
-    font-family: 'Ultra', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    
 }
 
 body {
-    background: rgb(193, 217, 255);
-    
+    background-color: rgb(250, 221, 177);
 }
 
 input {
     padding: 5px;
     border-radius: 10px;
     text-shadow: 1px 1px 2px black;
-    background: rgb(164, 184, 216);
+    background: rgb(199, 176, 141);
     appearance: none;
     border: none;
     outline: none;
 }
 
 #forward-todo {
+    
     font-size: 1.5rem;
     padding: 5px;
     text-shadow: 1px 1px 2px black;
@@ -52,7 +53,7 @@ section {
 }
 
 .greet {
-    color: rgb(46, 94, 182);
+    color: rgb(0, 0, 0);
     font-size: 3rem;
     margin-bottom: 2rem;
     
@@ -61,7 +62,7 @@ section {
 
 h3, #date{
     
-    color: rgb(62, 99, 168);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     margin-bottom: 2rem;
     margin-right: .8rem;
@@ -72,3 +73,4 @@ h3, #date{
     text-shadow: 1px 1px 2px black;
     
 }
+

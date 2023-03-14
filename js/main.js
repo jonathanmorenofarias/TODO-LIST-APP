@@ -15,16 +15,18 @@ function show_Item() {
     let items = ""
     for (let i = 0; i < todo_List.length; i++) {
         items+= `<div class = "item">
-                    <h2>${todo_List[i]}</h2>
+                    <h3>${todo_List[i]}</h3>
                 </div>`
     }
     document.querySelector(".real-list").innerHTML = items
 }
 
 function show_Date() {
-    let date = new Date()
-    date = date.toString().split(" ")
-    document.querySelector("#date").innerHTML = date[1] + " " + date[2]
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    const date = new Date();
+    document.querySelector("#date").innerHTML = days[date.getDay()] + " " + months[date.getMonth()] + " " + date.getDate()
 }
 
 window.onload = function() {
